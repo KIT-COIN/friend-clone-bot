@@ -13,4 +13,4 @@ RUN apt-get update \
 RUN pip install -r ./src/requirements.txt
 
 WORKDIR ./src/
-ENTRYPOINT ["python", "main.py"]
+# ENTRYPOINT ["python", "main.py"]
